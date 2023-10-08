@@ -8,7 +8,7 @@ void main() async {
   var path = Directory.current.path;
   Hive..init(path);
 
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.yellow),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
