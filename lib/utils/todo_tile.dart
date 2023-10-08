@@ -37,6 +37,7 @@ class ToDoTile extends StatelessWidget {
 
             const Spacer(),
             Checkbox(
+
               value: taskCompleted,
               onChanged: onChanged,
               checkColor: Colors.black,

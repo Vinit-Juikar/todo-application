@@ -5,6 +5,7 @@ import 'package:hive/hive.dart';
 import 'package:todo_app/homescreen.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   var path = Directory.current.path;
   Hive..init(path);
 

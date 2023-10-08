@@ -47,7 +47,7 @@ void createANewTask(){
       ),
       floatingActionButton: FloatingActionButton(
         splashColor: Colors.amber,
-        child: Text('+',style: TextStyle(fontSize: 20),),
+        child: Icon(Icons.add),
         onPressed: () {
           createANewTask();
         },
